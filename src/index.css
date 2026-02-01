@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+.active{
+    color: #F75E05;
+}
+
+.primaryBtn{
+    transition: all 0.4s ease-in-out;
+}
+.primaryBtn:hover{
+    cursor: pointer;
+    box-shadow: 6px 6px #FF3F3A ;
+}
+
+.navBarWhiteBtn{
+    transition: all 0.4s ease-in-out;
+}
+.navBarWhiteBtn:hover{
+    background-color: #F75E05;
+    color: white;
+    cursor: pointer;
+}
+
+.borderBtn{
+    transition: all 0.4s ease-in-out;
+}
+.borderBtn:hover{
+    background-color: #FF3F3A;
+    color: white;
+    cursor: pointer;
+}
+
+.homeCard{
+    transition: all 0.4s ease-in-out;
+}
+.homeCard:hover{
+    box-shadow: 0 0  16px rgb(143, 143, 143);
+    cursor: pointer;
+}
